@@ -232,5 +232,58 @@
 // console.log(equal(arrOne));
 // console.log(equal(arrTwo));
 
+// --------------------------- challenge alternating arrays -----------------------------------//
+// const arrayOne = ['a', 'b', 'c', 'd', 'e']
+// const arrayTwo = [1,2,3,4,5,6]
+// const newArray = []
 
+// smallerLength = Math.min(arrayOne.length, arrayTwo.length);
+
+// for (i = 0; i < smallerLength; i++) {
+//     newArray.push(arrayOne[i], arrayTwo[i]);
+// }
+//   newArray.push(...arrayOne.slice(smallerLength), ...arrayTwo.slice(smallerLength));
+
+// console.log(newArray);
+
+// ------------------------------ find prime challenge -----------------------------------------//
+// function checkPrime(value) {
+//   if (value === 1) {
+//       return false;
+//   } else if (value === 2) {
+//       return true;
+//   } else {
+//       for (i=2; i<value; i++) {
+//           if (value % i === 0) {
+//               return false;
+//           } 
+//       }return true;
+//   };
+// };
+
+// console.log(checkPrime(65));
+// console.log(checkPrime(3));  
+
+// ---------------------------------- fibonocci challenge ----------------------------------//
+// function fibonocci(num) {
+//   if (num === 1|| num === 2) {
+//     return 1;
+//   }
+//   return fibonocci(num-1) + fibonocci(num-2);
+// }
+
+
+// console.log(fibonocci(1)) // 1
+// console.log(fibonocci(2)) // 1
+// console.log(fibonocci(3)) // 2
+// console.log(fibonocci(4)) // 3
+// console.log(fibonocci(8)) // 21
+
+// --------------------------------- FizzBuzz ----------------------------------------------//
+// for (i=1; i<100; i++){
+//   if (i % 15 ===  0) console.log("FizzBuzz") 
+//   else if (i % 3 === 0) console.log("Fizz") 
+//   else if (i % 5 === 0)console.log("Buzz")
+//   else console.log(i)
+// }
   
